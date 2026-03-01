@@ -1,0 +1,45 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.bossjob:boss-job-backend >--------------------
+[INFO] Building Boss Job Platform Backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.0:run (default-cli) > test-compile @ boss-job-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ boss-job-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ boss-job-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 52 source files with javac [debug release 21] to target\classes
+[INFO] 鐢变簬鍦ㄧ被璺緞涓彂鐜颁簡涓€涓垨澶氫釜澶勭悊绋嬪簭锛屽洜姝ゅ惎鐢ㄤ簡
+  鎵规敞澶勭悊銆傛湭鏉ュ彂琛岀増鐨?javac 鍙兘浼氱鐢ㄦ壒娉ㄥ鐞嗭紝
+  闄ら潪鑷冲皯鎸夊悕绉版寚瀹氫簡涓€涓鐞嗙▼搴?(-processor)锛?  鎴栨寚瀹氫簡鎼滅储璺緞 (--processor-path, --processor-module-path)锛?  鎴栨樉寮忓惎鐢ㄤ簡鎵规敞澶勭悊 (-proc:only, -proc:full)銆?  鍙娇鐢?-Xlint:-options 闅愯棌姝ゆ秷鎭€?  鍙娇鐢?-proc:none 绂佺敤鎵规敞澶勭悊銆?
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /F:/java/travel/boss-job-platform/backend/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[80,12] 鏈懡鍚嶇被 鏄瑙堝姛鑳斤紝榛樿鎯呭喌涓嬬鐢ㄣ€?  锛堣浣跨敤 --enable-preview 浠ュ惎鐢?鏈懡鍚嶇被锛?
+[ERROR] /F:/java/travel/boss-job-platform/backend/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[165,1] 闇€瑕?class銆乮nterface銆乪num 鎴?record
+[ERROR] /F:/java/travel/boss-job-platform/backend/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[1,1] 鏈懡鍚嶇被涓嶅簲鏈夌▼搴忓寘澹版槑
+[INFO] 3 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.680 s
+[INFO] Finished at: 2026-01-12T15:32:14+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project boss-job-backend: Compilation failure: Compilation failure: 
+[ERROR] /F:/java/travel/boss-job-platform/backend/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[80,12] 鏈懡鍚嶇被 鏄瑙堝姛鑳斤紝榛樿鎯呭喌涓嬬鐢ㄣ€?
+[ERROR]   锛堣浣跨敤 --enable-preview 浠ュ惎鐢?鏈懡鍚嶇被锛?
+[ERROR] /F:/java/travel/boss-job-platform/backend/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[165,1] 闇€瑕?class銆乮nterface銆乪num 鎴?record
+[ERROR] /F:/java/travel/boss-job-platform/backend/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[1,1] 鏈懡鍚嶇被涓嶅簲鏈夌▼搴忓寘澹版槑
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

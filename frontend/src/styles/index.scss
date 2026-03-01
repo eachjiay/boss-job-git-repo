@@ -1,0 +1,484 @@
+// 主样式文件
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #f5f6f7;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+// 主题色
+$primary-color: #00bebd;
+$primary-light: #e8f8f8;
+$primary-dark: #00a5a4;
+$text-primary: #333;
+$text-secondary: #666;
+$text-muted: #999;
+$border-color: #e8e8e8;
+$bg-light: #f5f6f7;
+$bg-white: #fff;
+
+// 通用类
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.page-content {
+    padding: 20px 0;
+}
+
+.card {
+    background: $bg-white;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: $text-primary;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid $border-color;
+}
+
+// 薪资高亮
+.salary {
+    color: #ff6600;
+    font-weight: 600;
+}
+
+// 标签
+.tag {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 12px;
+    background: $primary-light;
+    color: $primary-color;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+// 按钮样式覆盖
+.el-button--primary {
+    --el-button-bg-color: #{$primary-color};
+    --el-button-border-color: #{$primary-color};
+    --el-button-hover-bg-color: #{$primary-dark};
+    --el-button-hover-border-color: #{$primary-dark};
+}
+
+// 头部导航
+.header {
+    background: $primary-color;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    .header-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
+
+        span {
+            background: #fff;
+            color: $primary-color;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-left: 4px;
+        }
+    }
+
+    .nav-menu {
+        display: flex;
+        gap: 30px;
+
+        a {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 15px;
+            transition: color 0.2s;
+
+            &:hover,
+            &.active {
+                color: #fff;
+            }
+        }
+    }
+
+    .header-right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .login-btn {
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 6px 16px;
+            border-radius: 4px;
+            transition: all 0.2s;
+
+            &:hover {
+                background: rgba(255, 255, 255, 0.1);
+                border-color: #fff;
+            }
+        }
+    }
+}
+
+// 侧边栏
+.sidebar {
+    width: 200px;
+    background: $bg-white;
+    min-height: calc(100vh - 60px);
+    border-right: 1px solid $border-color;
+
+    .sidebar-menu {
+        padding: 10px 0;
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 20px;
+            color: $text-secondary;
+            cursor: pointer;
+            transition: all 0.2s;
+
+            &:hover {
+                background: $primary-light;
+                color: $primary-color;
+            }
+
+            &.active {
+                background: $primary-light;
+                color: $primary-color;
+                border-right: 3px solid $primary-color;
+            }
+
+            .el-icon {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+// 搜索框
+.search-box {
+    display: flex;
+    gap: 10px;
+    background: $bg-white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+    .el-select {
+        width: 120px;
+    }
+
+    .el-input {
+        flex: 1;
+    }
+}
+
+// 筛选栏
+.filter-bar {
+    background: $bg-white;
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+    .filter-row {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 12px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        .filter-label {
+            width: 80px;
+            color: $text-muted;
+            padding-top: 6px;
+            flex-shrink: 0;
+        }
+
+        .filter-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+
+            .filter-option {
+                padding: 4px 12px;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: all 0.2s;
+
+                &:hover {
+                    color: $primary-color;
+                }
+
+                &.active {
+                    background: $primary-color;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+// 职位卡片
+.job-card {
+    background: $bg-white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+
+    &:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 12px;
+
+        .job-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: $text-primary;
+            margin-bottom: 6px;
+        }
+
+        .job-salary {
+            font-size: 16px;
+            color: #ff6600;
+            font-weight: 600;
+        }
+    }
+
+    .job-info {
+        display: flex;
+        gap: 12px;
+        color: $text-muted;
+        font-size: 13px;
+        margin-bottom: 12px;
+
+        span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+    }
+
+    .job-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-bottom: 12px;
+    }
+
+    .job-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 12px;
+        border-top: 1px solid $border-color;
+
+        .company-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .company-logo {
+                width: 40px;
+                height: 40px;
+                border-radius: 4px;
+                object-fit: cover;
+            }
+
+            .company-name {
+                font-size: 14px;
+                color: $text-primary;
+            }
+
+            .company-desc {
+                font-size: 12px;
+                color: $text-muted;
+            }
+        }
+
+        .publisher-info {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: $text-muted;
+            font-size: 13px;
+        }
+    }
+}
+
+// 候选人卡片
+.candidate-card {
+    background: $bg-white;
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .candidate-avatar {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+
+    .candidate-info {
+        flex: 1;
+
+        .candidate-name {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 6px;
+
+            .status-tag {
+                font-size: 12px;
+                font-weight: normal;
+                margin-left: 8px;
+            }
+        }
+
+        .candidate-meta {
+            color: $text-muted;
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+
+        .candidate-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+    }
+
+    .candidate-expect {
+        text-align: right;
+
+        .expect-city {
+            color: $text-secondary;
+            margin-bottom: 4px;
+        }
+
+        .expect-position {
+            color: $primary-color;
+            font-weight: 500;
+        }
+    }
+
+    .candidate-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+// 表单页面
+.form-page {
+    max-width: 800px;
+    margin: 0 auto;
+
+    .form-section {
+        margin-bottom: 32px;
+
+        .section-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background: $primary-color;
+            color: #fff;
+            border-radius: 50%;
+            font-size: 14px;
+            margin-right: 10px;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            border: none;
+            padding: 0;
+        }
+
+        .section-desc {
+            color: $text-muted;
+            font-size: 13px;
+            margin-bottom: 16px;
+        }
+    }
+}
+
+// 分页
+.pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+// 空状态
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: $text-muted;
+
+    .el-icon {
+        font-size: 48px;
+        margin-bottom: 16px;
+        color: #ddd;
+    }
+}

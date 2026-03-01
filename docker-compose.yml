@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend-build
+      dockerfile: Dockerfile
+    networks:
+      - boss-network
+    ports:
+      - "8081:8081" # You can comment this out to hide the backend from public internet, currently mapped for direct testing
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend-build
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - boss-network
+    restart: always
+
+networks:
+  boss-network:
+    driver: bridge

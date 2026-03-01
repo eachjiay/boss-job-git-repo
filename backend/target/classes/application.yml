@@ -1,0 +1,74 @@
+server:
+  port: 8081
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  # H2 内存数据库配置 (开发环境使用，无需安装MySQL)
+  datasource:
+    url: jdbc:h2:mem:bossjob;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=MySQL
+    username: sa
+    password: 
+    driver-class-name: org.h2.Driver
+  
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data.sql
+  
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+
+
+  mail:
+    host: smtp.163.com
+    port: 465
+    username: z592937294@163.com
+    password: TQwVa4jyxLyFRN9R
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+          starttls:
+            enable: true
+            required: true
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.bossjob.entity
+  configuration:
+    map-underscore-to-camel-case: true
+
+# JWT Configuration
+jwt:
+  secret: YourSuperSecretKeyForJWTTokenGenerationMustBeLongEnough256Bits
+  expiration: 86400000  # 24 hours in milliseconds
+
+# CORS Configuration
+cors:
+  allowed-origins: http://localhost:5173
+
+# MinIO Configuration
+minio:
+  endpoint: http://localhost:9000
+  access-key: minioadmin
+  secret-key: minioadmin
+  bucket-name: bossjob-resumes
+
+# Doubao AI Configuration (豆包大模型 - 火山引擎)
+# API Key from https://console.volcengine.com/ark
+doubao:
+  api-key: 5d8c4149-7854-471e-b4d1-f441fb6d82fd
+  model: doubao-seed-1-8-251228
+  endpoint: https://ark.cn-beijing.volces.com/api/v3/chat/completions

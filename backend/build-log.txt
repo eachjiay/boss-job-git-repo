@@ -1,0 +1,85 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.bossjob:boss-job-backend >--------------------
+[INFO] Building Boss Job Platform Backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.0:run (default-cli) > test-compile @ boss-job-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ boss-job-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ boss-job-backend ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ boss-job-backend ---
+[INFO] skip non existing resourceDirectory F:\java\travel\boss-job-platform\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ boss-job-backend ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.0:run (default-cli) < test-compile @ boss-job-backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.0:run (default-cli) @ boss-job-backend ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2026-01-07T21:38:37.950+08:00  INFO 6584 --- [           main] com.bossjob.BossJobApplication           : Starting BossJobApplication using Java 21.0.9 with PID 6584 (F:\java\travel\boss-job-platform\backend\target\classes started by 鎬€鐟炬彙鐟滐紝鍢夎█鎳胯 in F:\java\travel\boss-job-platform\backend)
+2026-01-07T21:38:37.950+08:00  INFO 6584 --- [           main] com.bossjob.BossJobApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-01-07T21:38:38.971+08:00  INFO 6584 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-07T21:38:38.979+08:00  INFO 6584 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-07T21:38:38.979+08:00  INFO 6584 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-01-07T21:38:39.021+08:00  INFO 6584 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-07T21:38:39.023+08:00  INFO 6584 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1034 ms
+2026-01-07T21:38:39.049+08:00  INFO 6584 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-07T21:38:39.180+08:00  INFO 6584 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bossjob user=SA
+2026-01-07T21:38:39.181+08:00  INFO 6584 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-07T21:38:39.189+08:00  INFO 6584 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bossjob'
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.5 
+2026-01-07T21:38:39.946+08:00  INFO 6584 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1b0e031b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6009cd34, org.springframework.security.web.context.SecurityContextHolderFilter@2c99c8d, org.springframework.security.web.header.HeaderWriterFilter@21516c88, org.springframework.web.filter.CorsFilter@65844c96, org.springframework.security.web.authentication.logout.LogoutFilter@2d4fb0d8, com.bossjob.security.JwtAuthenticationFilter@16d0e521, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@365cef67, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27df5806, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25214797, org.springframework.security.web.session.SessionManagementFilter@4aa22cc2, org.springframework.security.web.access.ExceptionTranslationFilter@52bba91a, org.springframework.security.web.access.intercept.AuthorizationFilter@45b7c97f]
+2026-01-07T21:38:40.113+08:00  WARN 6584 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-01-07T21:38:40.115+08:00  INFO 6584 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-07T21:38:40.117+08:00  INFO 6584 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-07T21:38:40.125+08:00  INFO 6584 --- [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-07T21:38:40.138+08:00 ERROR 6584 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.338 s
+[INFO] Finished at: 2026-01-07T21:38:40+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.0:run (default-cli) on project boss-job-backend: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

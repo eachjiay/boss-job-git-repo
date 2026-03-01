@@ -1,0 +1,685 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.bossjob:boss-job-backend >--------------------
+[INFO] Building Boss Job Platform Backend 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ boss-job-backend ---
+[INFO] Deleting C:\Users\59293\AppData\Local\Temp\backend-build\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ boss-job-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ boss-job-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 77 source files with javac [debug release 21] to target\classes
+[INFO] 由于在类路径中发现了一个或多个处理程序，因此启用了
+  批注处理。未来发行版的 javac 可能会禁用批注处理，
+  除非至少按名称指定了一个处理程序 (-processor)，
+  或指定了搜索路径 (--processor-path, --processor-module-path)，
+  或显式启用了批注处理 (-proc:only, -proc:full)。
+  可使用 -Xlint:-options 隐藏此消息。
+  可使用 -proc:none 禁用批注处理。
+[INFO] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/AiResumeServiceImpl.java: C:\Users\59293\AppData\Local\Temp\backend-build\src\main\java\com\bossjob\service\impl\AiResumeServiceImpl.java使用或覆盖了已过时的 API。
+[INFO] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/AiResumeServiceImpl.java: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/controller/AuthController.java:[29,44] 已在类 com.bossjob.controller.AuthController中定义了变量 emailVerificationService
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/controller/CompanyController.java:[31,16] 找不到符号
+  符号:   方法 setId(java.lang.Long)
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[17,15] 找不到符号
+  符号:   方法 setCode(int)
+  位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[18,15] 找不到符号
+  符号:   方法 setMessage(java.lang.String)
+  位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[24,15] 找不到符号
+  符号:   方法 setCode(int)
+  位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[25,15] 找不到符号
+  符号:   方法 setMessage(java.lang.String)
+  位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[26,15] 找不到符号
+  符号:   方法 setData(T)
+  位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[32,15] 找不到符号
+  符号:   方法 setCode(int)
+  位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[33,15] 找不到符号
+  符号:   方法 setMessage(java.lang.String)
+  位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[34,15] 找不到符号
+  符号:   方法 setData(T)
+  位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[40,15] 找不到符号
+  符号:   方法 setCode(int)
+  位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[41,15] 找不到符号
+  符号:   方法 setMessage(java.lang.String)
+  位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[47,15] 找不到符号
+  符号:   方法 setCode(java.lang.Integer)
+  位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[48,15] 找不到符号
+  符号:   方法 setMessage(java.lang.String)
+  位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[40,51] 找不到符号
+  符号:   方法 getId()
+  位置: 类型为com.bossjob.entity.User的变量 currentUser
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[40,21] 方法引用无效
+  找不到符号
+    符号:   方法 getUserId()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[51,51] 找不到符号
+  符号:   方法 getId()
+  位置: 类型为com.bossjob.entity.User的变量 currentUser
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[51,21] 方法引用无效
+  找不到符号
+    符号:   方法 getUserId()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[54,34] 找不到符号
+  符号:   方法 getId()
+  位置: 类型为com.bossjob.entity.Resume的变量 existing
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[55,41] 找不到符号
+  符号:   方法 getId()
+  位置: 类型为com.bossjob.entity.User的变量 currentUser
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[56,19] 找不到符号
+  符号:   方法 setUpdateTime(java.time.LocalDateTime)
+  位置: 类型为com.bossjob.entity.Resume的变量 resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[59,41] 找不到符号
+  符号:   方法 getId()
+  位置: 类型为com.bossjob.entity.User的变量 currentUser
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[60,19] 找不到符号
+  符号:   方法 setCreateTime(java.time.LocalDateTime)
+  位置: 类型为com.bossjob.entity.Resume的变量 resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[61,19] 找不到符号
+  符号:   方法 setUpdateTime(java.time.LocalDateTime)
+  位置: 类型为com.bossjob.entity.Resume的变量 resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[80,21] 方法引用无效
+  找不到符号
+    符号:   方法 getUserId()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[88,42] 找不到符号
+  符号:   方法 getKeyword()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[90,57] 找不到符号
+  符号:   方法 getKeyword()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[90,27] 方法引用无效
+  找不到符号
+    符号:   方法 getRealName()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[92,27] 方法引用无效
+  找不到符号
+    符号:   方法 getSkills()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[92,55] 找不到符号
+  符号:   方法 getKeyword()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[94,27] 方法引用无效
+  找不到符号
+    符号:   方法 getExpectPosition()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[94,63] 找不到符号
+  符号:   方法 getKeyword()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[98,42] 找不到符号
+  符号:   方法 getCity()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[99,56] 找不到符号
+  符号:   方法 getCity()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[99,24] 方法引用无效
+  找不到符号
+    符号:   方法 getExpectCity()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[103,42] 找不到符号
+  符号:   方法 getEducation()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[104,55] 找不到符号
+  符号:   方法 getEducation()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[104,24] 方法引用无效
+  找不到符号
+    符号:   方法 getEducation()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[108,42] 找不到符号
+  符号:   方法 getWorkYears()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[109,55] 找不到符号
+  符号:   方法 getWorkYears()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[109,24] 方法引用无效
+  找不到符号
+    符号:   方法 getWorkYears()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[113,22] 找不到符号
+  符号:   方法 getAgeMin()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[114,49] 找不到符号
+  符号:   方法 getAgeMin()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[114,24] 方法引用无效
+  找不到符号
+    符号:   方法 getAge()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[116,22] 找不到符号
+  符号:   方法 getAgeMax()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[117,49] 找不到符号
+  符号:   方法 getAgeMax()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[117,24] 方法引用无效
+  找不到符号
+    符号:   方法 getAge()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[121,42] 找不到符号
+  符号:   方法 getJobStatus()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[122,55] 找不到符号
+  符号:   方法 getJobStatus()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[122,24] 方法引用无效
+  找不到符号
+    符号:   方法 getJobStatus()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[126,22] 找不到符号
+  符号:   方法 getSalaryMin()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[127,61] 找不到符号
+  符号:   方法 getSalaryMin()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[127,24] 方法引用无效
+  找不到符号
+    符号:   方法 getExpectSalaryMax()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[129,22] 找不到符号
+  符号:   方法 getSalaryMax()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[130,61] 找不到符号
+  符号:   方法 getSalaryMax()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[130,24] 方法引用无效
+  找不到符号
+    符号:   方法 getExpectSalaryMin()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[133,29] 方法引用无效
+  找不到符号
+    符号:   方法 getUpdateTime()
+    位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[136,37] 找不到符号
+  符号:   方法 getPage()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[136,58] 找不到符号
+  符号:   方法 getSize()
+  位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[149,43] 找不到符号
+  符号:   方法 getSkills()
+  位置: 类型为com.bossjob.entity.Resume的变量 resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/EmailVerificationService.java:[50,13] 找不到符号
+  符号:   变量 log
+  位置: 类 com.bossjob.service.EmailVerificationService
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/EmailVerificationService.java:[52,13] 找不到符号
+  符号:   变量 log
+  位置: 类 com.bossjob.service.EmailVerificationService
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[40,25] 找不到符号
+  符号:   方法 getId()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[41,27] 找不到符号
+  符号:   方法 getName()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[42,27] 找不到符号
+  符号:   方法 getLogo()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[43,28] 找不到符号
+  符号:   方法 getScale()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[44,31] 找不到符号
+  符号:   方法 getIndustry()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[45,32] 找不到符号
+  符号:   方法 getFinancing()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[46,34] 找不到符号
+  符号:   方法 getDescription()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[47,29] 找不到符号
+  符号:   方法 getDetail()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[48,30] 找不到符号
+  符号:   方法 getAddress()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[49,27] 找不到符号
+  符号:   方法 getCity()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[50,35] 找不到符号
+  符号:   方法 getBusinessInfo()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[51,33] 找不到符号
+  符号:   方法 getCreateTime()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[54,46] 找不到符号
+  符号:   方法 getBenefits()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[55,44] 找不到符号
+  符号:   方法 getImages()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[59,21] 方法引用无效
+  找不到符号
+    符号:   方法 getCompanyId()
+    位置: 类 com.bossjob.entity.Job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[60,21] 方法引用无效
+  找不到符号
+    符号:   方法 getStatus()
+    位置: 类 com.bossjob.entity.Job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[61,11] 找不到符号
+  符号:   方法 setJobCount(int)
+  位置: 类型为com.bossjob.vo.CompanyDetailVO的变量 vo
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[65,21] 方法引用无效
+  找不到符号
+    符号:   方法 getRole()
+    位置: 类 com.bossjob.entity.User
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[66,11] 找不到符号
+  符号:   方法 setBossCount(int)
+  位置: 类型为com.bossjob.vo.CompanyDetailVO的变量 vo
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[70,21] 方法引用无效
+  找不到符号
+    符号:   方法 getCompanyId()
+    位置: 类 com.bossjob.entity.Job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[71,21] 方法引用无效
+  找不到符号
+    符号:   方法 getStatus()
+    位置: 类 com.bossjob.entity.Job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[72,30] 方法引用无效
+  找不到符号
+    符号:   方法 getViewCount()
+    位置: 类 com.bossjob.entity.Job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[78,28] 找不到符号
+  符号:   方法 getId()
+  位置: 类型为com.bossjob.entity.Job的变量 job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[79,31] 找不到符号
+  符号:   方法 getTitle()
+  位置: 类型为com.bossjob.entity.Job的变量 job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[80,30] 找不到符号
+  符号:   方法 getCity()
+  位置: 类型为com.bossjob.entity.Job的变量 job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[81,35] 找不到符号
+  符号:   方法 getSalaryMin()
+  位置: 类型为com.bossjob.entity.Job的变量 job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[82,35] 找不到符号
+  符号:   方法 getSalaryMax()
+  位置: 类型为com.bossjob.entity.Job的变量 job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[83,36] 找不到符号
+  符号:   方法 getExperience()
+  位置: 类型为com.bossjob.entity.Job的变量 job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[84,39] 找不到符号
+  符号:   方法 getId()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[85,41] 找不到符号
+  符号:   方法 getName()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[88,11] 找不到符号
+  符号:   方法 setHotJobs(java.util.List<com.bossjob.vo.JobListVO>)
+  位置: 类型为com.bossjob.vo.CompanyDetailVO的变量 vo
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[95,16] 找不到符号
+  符号:   方法 setCreateTime(java.time.LocalDateTime)
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[96,16] 找不到符号
+  符号:   方法 setUpdateTime(java.time.LocalDateTime)
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[103,16] 找不到符号
+  符号:   方法 setUpdateTime(java.time.LocalDateTime)
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[105,31] 找不到符号
+  符号:   方法 getId()
+  位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[111,21] 方法引用无效
+  找不到符号
+    符号:   方法 getUserId()
+    位置: 类 com.bossjob.entity.Company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/MinioServiceImpl.java:[46,21] 找不到符号
+  符号:   变量 log
+  位置: 类 com.bossjob.service.impl.MinioServiceImpl
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/MinioServiceImpl.java:[72,13] 找不到符号
+  符号:   变量 log
+  位置: 类 com.bossjob.service.impl.MinioServiceImpl
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.180 s
+[INFO] Finished at: 2026-02-23T23:45:44+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project boss-job-backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/controller/AuthController.java:[29,44] 已在类 com.bossjob.controller.AuthController中定义了变量 emailVerificationService
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/controller/CompanyController.java:[31,16] 找不到符号
+[ERROR]   符号:   方法 setId(java.lang.Long)
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[17,15] 找不到符号
+[ERROR]   符号:   方法 setCode(int)
+[ERROR]   位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[18,15] 找不到符号
+[ERROR]   符号:   方法 setMessage(java.lang.String)
+[ERROR]   位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[24,15] 找不到符号
+[ERROR]   符号:   方法 setCode(int)
+[ERROR]   位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[25,15] 找不到符号
+[ERROR]   符号:   方法 setMessage(java.lang.String)
+[ERROR]   位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[26,15] 找不到符号
+[ERROR]   符号:   方法 setData(T)
+[ERROR]   位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[32,15] 找不到符号
+[ERROR]   符号:   方法 setCode(int)
+[ERROR]   位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[33,15] 找不到符号
+[ERROR]   符号:   方法 setMessage(java.lang.String)
+[ERROR]   位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[34,15] 找不到符号
+[ERROR]   符号:   方法 setData(T)
+[ERROR]   位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[40,15] 找不到符号
+[ERROR]   符号:   方法 setCode(int)
+[ERROR]   位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[41,15] 找不到符号
+[ERROR]   符号:   方法 setMessage(java.lang.String)
+[ERROR]   位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[47,15] 找不到符号
+[ERROR]   符号:   方法 setCode(java.lang.Integer)
+[ERROR]   位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/common/Result.java:[48,15] 找不到符号
+[ERROR]   符号:   方法 setMessage(java.lang.String)
+[ERROR]   位置: 类型为com.bossjob.common.Result<T>的变量 result
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[40,51] 找不到符号
+[ERROR]   符号:   方法 getId()
+[ERROR]   位置: 类型为com.bossjob.entity.User的变量 currentUser
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[40,21] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getUserId()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[51,51] 找不到符号
+[ERROR]   符号:   方法 getId()
+[ERROR]   位置: 类型为com.bossjob.entity.User的变量 currentUser
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[51,21] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getUserId()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[54,34] 找不到符号
+[ERROR]   符号:   方法 getId()
+[ERROR]   位置: 类型为com.bossjob.entity.Resume的变量 existing
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[55,41] 找不到符号
+[ERROR]   符号:   方法 getId()
+[ERROR]   位置: 类型为com.bossjob.entity.User的变量 currentUser
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[56,19] 找不到符号
+[ERROR]   符号:   方法 setUpdateTime(java.time.LocalDateTime)
+[ERROR]   位置: 类型为com.bossjob.entity.Resume的变量 resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[59,41] 找不到符号
+[ERROR]   符号:   方法 getId()
+[ERROR]   位置: 类型为com.bossjob.entity.User的变量 currentUser
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[60,19] 找不到符号
+[ERROR]   符号:   方法 setCreateTime(java.time.LocalDateTime)
+[ERROR]   位置: 类型为com.bossjob.entity.Resume的变量 resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[61,19] 找不到符号
+[ERROR]   符号:   方法 setUpdateTime(java.time.LocalDateTime)
+[ERROR]   位置: 类型为com.bossjob.entity.Resume的变量 resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[80,21] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getUserId()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[88,42] 找不到符号
+[ERROR]   符号:   方法 getKeyword()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[90,57] 找不到符号
+[ERROR]   符号:   方法 getKeyword()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[90,27] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getRealName()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[92,27] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getSkills()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[92,55] 找不到符号
+[ERROR]   符号:   方法 getKeyword()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[94,27] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getExpectPosition()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[94,63] 找不到符号
+[ERROR]   符号:   方法 getKeyword()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[98,42] 找不到符号
+[ERROR]   符号:   方法 getCity()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[99,56] 找不到符号
+[ERROR]   符号:   方法 getCity()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[99,24] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getExpectCity()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[103,42] 找不到符号
+[ERROR]   符号:   方法 getEducation()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[104,55] 找不到符号
+[ERROR]   符号:   方法 getEducation()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[104,24] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getEducation()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[108,42] 找不到符号
+[ERROR]   符号:   方法 getWorkYears()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[109,55] 找不到符号
+[ERROR]   符号:   方法 getWorkYears()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[109,24] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getWorkYears()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[113,22] 找不到符号
+[ERROR]   符号:   方法 getAgeMin()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[114,49] 找不到符号
+[ERROR]   符号:   方法 getAgeMin()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[114,24] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getAge()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[116,22] 找不到符号
+[ERROR]   符号:   方法 getAgeMax()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[117,49] 找不到符号
+[ERROR]   符号:   方法 getAgeMax()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[117,24] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getAge()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[121,42] 找不到符号
+[ERROR]   符号:   方法 getJobStatus()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[122,55] 找不到符号
+[ERROR]   符号:   方法 getJobStatus()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[122,24] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getJobStatus()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[126,22] 找不到符号
+[ERROR]   符号:   方法 getSalaryMin()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[127,61] 找不到符号
+[ERROR]   符号:   方法 getSalaryMin()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[127,24] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getExpectSalaryMax()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[129,22] 找不到符号
+[ERROR]   符号:   方法 getSalaryMax()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[130,61] 找不到符号
+[ERROR]   符号:   方法 getSalaryMax()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[130,24] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getExpectSalaryMin()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[133,29] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getUpdateTime()
+[ERROR]     位置: 类 com.bossjob.entity.Resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[136,37] 找不到符号
+[ERROR]   符号:   方法 getPage()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[136,58] 找不到符号
+[ERROR]   符号:   方法 getSize()
+[ERROR]   位置: 类型为com.bossjob.dto.CandidateSearchDTO的变量 searchDTO
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/ResumeServiceImpl.java:[149,43] 找不到符号
+[ERROR]   符号:   方法 getSkills()
+[ERROR]   位置: 类型为com.bossjob.entity.Resume的变量 resume
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/EmailVerificationService.java:[50,13] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.bossjob.service.EmailVerificationService
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/EmailVerificationService.java:[52,13] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.bossjob.service.EmailVerificationService
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[40,25] 找不到符号
+[ERROR]   符号:   方法 getId()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[41,27] 找不到符号
+[ERROR]   符号:   方法 getName()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[42,27] 找不到符号
+[ERROR]   符号:   方法 getLogo()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[43,28] 找不到符号
+[ERROR]   符号:   方法 getScale()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[44,31] 找不到符号
+[ERROR]   符号:   方法 getIndustry()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[45,32] 找不到符号
+[ERROR]   符号:   方法 getFinancing()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[46,34] 找不到符号
+[ERROR]   符号:   方法 getDescription()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[47,29] 找不到符号
+[ERROR]   符号:   方法 getDetail()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[48,30] 找不到符号
+[ERROR]   符号:   方法 getAddress()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[49,27] 找不到符号
+[ERROR]   符号:   方法 getCity()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[50,35] 找不到符号
+[ERROR]   符号:   方法 getBusinessInfo()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[51,33] 找不到符号
+[ERROR]   符号:   方法 getCreateTime()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[54,46] 找不到符号
+[ERROR]   符号:   方法 getBenefits()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[55,44] 找不到符号
+[ERROR]   符号:   方法 getImages()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[59,21] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getCompanyId()
+[ERROR]     位置: 类 com.bossjob.entity.Job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[60,21] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getStatus()
+[ERROR]     位置: 类 com.bossjob.entity.Job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[61,11] 找不到符号
+[ERROR]   符号:   方法 setJobCount(int)
+[ERROR]   位置: 类型为com.bossjob.vo.CompanyDetailVO的变量 vo
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[65,21] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getRole()
+[ERROR]     位置: 类 com.bossjob.entity.User
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[66,11] 找不到符号
+[ERROR]   符号:   方法 setBossCount(int)
+[ERROR]   位置: 类型为com.bossjob.vo.CompanyDetailVO的变量 vo
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[70,21] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getCompanyId()
+[ERROR]     位置: 类 com.bossjob.entity.Job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[71,21] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getStatus()
+[ERROR]     位置: 类 com.bossjob.entity.Job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[72,30] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getViewCount()
+[ERROR]     位置: 类 com.bossjob.entity.Job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[78,28] 找不到符号
+[ERROR]   符号:   方法 getId()
+[ERROR]   位置: 类型为com.bossjob.entity.Job的变量 job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[79,31] 找不到符号
+[ERROR]   符号:   方法 getTitle()
+[ERROR]   位置: 类型为com.bossjob.entity.Job的变量 job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[80,30] 找不到符号
+[ERROR]   符号:   方法 getCity()
+[ERROR]   位置: 类型为com.bossjob.entity.Job的变量 job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[81,35] 找不到符号
+[ERROR]   符号:   方法 getSalaryMin()
+[ERROR]   位置: 类型为com.bossjob.entity.Job的变量 job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[82,35] 找不到符号
+[ERROR]   符号:   方法 getSalaryMax()
+[ERROR]   位置: 类型为com.bossjob.entity.Job的变量 job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[83,36] 找不到符号
+[ERROR]   符号:   方法 getExperience()
+[ERROR]   位置: 类型为com.bossjob.entity.Job的变量 job
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[84,39] 找不到符号
+[ERROR]   符号:   方法 getId()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[85,41] 找不到符号
+[ERROR]   符号:   方法 getName()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[88,11] 找不到符号
+[ERROR]   符号:   方法 setHotJobs(java.util.List<com.bossjob.vo.JobListVO>)
+[ERROR]   位置: 类型为com.bossjob.vo.CompanyDetailVO的变量 vo
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[95,16] 找不到符号
+[ERROR]   符号:   方法 setCreateTime(java.time.LocalDateTime)
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[96,16] 找不到符号
+[ERROR]   符号:   方法 setUpdateTime(java.time.LocalDateTime)
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[103,16] 找不到符号
+[ERROR]   符号:   方法 setUpdateTime(java.time.LocalDateTime)
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[105,31] 找不到符号
+[ERROR]   符号:   方法 getId()
+[ERROR]   位置: 类型为com.bossjob.entity.Company的变量 company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/CompanyServiceImpl.java:[111,21] 方法引用无效
+[ERROR]   找不到符号
+[ERROR]     符号:   方法 getUserId()
+[ERROR]     位置: 类 com.bossjob.entity.Company
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/MinioServiceImpl.java:[46,21] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.bossjob.service.impl.MinioServiceImpl
+[ERROR] /C:/Users/59293/AppData/Local/Temp/backend-build/src/main/java/com/bossjob/service/impl/MinioServiceImpl.java:[72,13] 找不到符号
+[ERROR]   符号:   变量 log
+[ERROR]   位置: 类 com.bossjob.service.impl.MinioServiceImpl
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
