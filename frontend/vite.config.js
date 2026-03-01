@@ -5,9 +5,12 @@ import { resolve } from 'path'
 export default defineConfig({
     plugins: [vue()],
     resolve: {
-        alias: {
-            '@': resolve(__dirname, 'src')
-        }
+        alias: [
+            { find: '@', replacement: resolve(__dirname, 'src') },
+            // Forcefully trap the ghost import that breaks Rollup
+            { find: /.*use-window-config\.mjs$/, replacement: 'element-plus/es/hooks/use-id/index.mjs' },
+            { find: /.*use-prevent-window\/index\.mjs$/, replacement: 'element-plus/es/hooks/use-id/index.mjs' }
+        ]
     },
     server: {
         port: 5173,

@@ -1,0 +1,1 @@
+import{a3 as n,v as o,s as a}from"./index-ByYUKXtM.js";const u=n("message",()=>{const s=o(0);async function t(){try{const e=await a.get("/messages/unread");e.code===200&&(s.value=e.data)}catch(e){console.error("Failed to fetch unread count:",e)}}async function r(e){return await a.post("/messages",e)}return{unreadCount:s,fetchUnreadCount:t,sendMessage:r}});export{u};
