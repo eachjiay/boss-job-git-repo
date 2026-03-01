@@ -3,7 +3,7 @@ version: '3.8'
 services:
   backend:
     build:
-      context: ./backend-build
+      context: ./backend
       dockerfile: Dockerfile
     networks:
       - boss-network
@@ -13,7 +13,7 @@ services:
 
   frontend:
     build:
-      context: ./frontend-build
+      context: ./frontend
       dockerfile: Dockerfile
     ports:
       - "80:80"
